@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="names" id="names">
+            <h1>Welcome to Dice Game 🎲</h1>
+            <h2>Enter the players Names</h2>
+            <input type="text" id="player1name" name="name" placeholder="Player 1" maxlength="8">
+            <input type="text" id="player2name" name="name" placeholder="Player 2" maxlength="8">
+            <p>Player 1 Will be the first to rool the Dice</p>
+            <button id="begin">Begin to Game</button>
+        </div>
+        <!--<div class="popUp" id="popUp">
+            <h1>Welcome to the Dice Game</h1>
+            <h2>Roll the dice to know which player will go first, Good Luck !</h2>
+            <div id="playerturn" class="dice">-</div>
+            <button id="rollBtnTurn">Roll Dice 🎲</button>
+            <h3 id="turnmessage"></h3>
+            <button id="start">Start the Game</button>
+        </div>-->
+        <div class="confetti" id="confetti">
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+        </div>
+        <div class="container" id="container">
+            <h1 id="message">Player 1 Turn</h1>
+            <div class="players">
+                <div id="player1">
+                    <h1>Score: 
+                        <span id="player1Scoreboard">0</span>
+                    </h1>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h1>Score: 
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="resetBtn">Play Again 🔁</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
